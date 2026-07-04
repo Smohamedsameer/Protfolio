@@ -7,9 +7,9 @@ import Footer from "./Footer.jsx";
 /* Replace these placeholder GitHub links with your real repo links */
 const PROJECTS = [
   {
-    title: "Project One",
-    img: "/prj1.jpg",
-    github: "https://github.com/mohd-sameer/project-1",
+    title: "Protfolio-Mohd",
+    img: "/prj1.png",
+    github: "https://github.com/Smohamedsameer/Protfolio.git",
     lines: [
       "A full stack web application built to solve a real everyday problem.",
       "Designed the front end for a clean, responsive user experience.",
@@ -19,21 +19,22 @@ const PROJECTS = [
     ],
   },
   {
-    title: "Project Two",
-    img: "/prj2.jpg",
-    github: "https://github.com/mohd-sameer/project-2",
+    title: "Yass - Real Estate",
+    img: "/prj2.png",
+    github: "https://github.com/Smohamedsameer/Yass-Groups.git",
     lines: [
-      "A CRUD based application to manage and organize records efficiently.",
-      "Implemented REST APIs to connect the front end and back end cleanly.",
-      "Used structured queries to keep data operations fast and reliable.",
-      "Focused on writing readable, maintainable, and reusable code.",
-      "Tested each feature individually before integrating the full flow.",
+       "A capstone style project combining everything learned so far.",
+      "Structured the project using proper folder and file organization.",
+      "Applied Java full stack concepts from front end to database layer.",
+      "Practiced version control by committing progress step by step.",
+      "Refined the project based on feedback and self code review.",
+      
     ],
   },
   {
-    title: "Project Three",
-    img: "/prj3.jpg",
-    github: "https://github.com/mohd-sameer/project-3",
+    title: "E - Commerce",
+    img: "/prj3.png",
+    github: "https://github.com/Smohamedsameer/E-Commerce.git",
     lines: [
       "A dashboard style project focused on presenting data clearly.",
       "Practiced component based thinking to keep the UI modular.",
@@ -43,15 +44,16 @@ const PROJECTS = [
     ],
   },
   {
-    title: "Project Four",
-    img: "/prj4.jpg",
-    github: "https://github.com/mohd-sameer/project-4",
+    title: "Staff Management Portal",
+    img: "/prj4.png",
+    github: "https://github.com/Smohamedsameer/staff-management1.git",
     lines: [
-      "A capstone style project combining everything learned so far.",
-      "Structured the project using proper folder and file organization.",
-      "Applied Java full stack concepts from front end to database layer.",
-      "Practiced version control by committing progress step by step.",
-      "Refined the project based on feedback and self code review.",
+       "A CRUD based application to manage and organize records efficiently.",
+      "Implemented REST APIs to connect the front end and back end cleanly.",
+      "Used structured queries to keep data operations fast and reliable.",
+      "Focused on writing readable, maintainable, and reusable code.",
+      "Tested each feature individually before integrating the full flow.",
+     
     ],
   },
 ];

@@ -348,10 +348,10 @@ function HeroSection() {
    SELECTED WORKS
 ───────────────────────────────────────── */
 const HOME_PROJECTS = [
-  { title: "Automotive Motion", span: 7, img: "https://images.unsplash.com/photo-1614200179396-2bdb77ebf81b?w=800&q=80", tag: "Motion Design" },
-  { title: "Urban Architecture", span: 5, img: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80", tag: "Architecture" },
-  { title: "Human Perspective", span: 5, img: "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?w=800&q=80", tag: "Photography" },
-  { title: "Brand Identity", span: 7, img: "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&q=80", tag: "Branding" },
+  { title: "Automotive Motion", span: 7, img: "/public/prj2.png", tag: "Motion Design" },
+  { title: "Urban Architecture", span: 5, img: "/public/prj4.png", tag: "Architecture" },
+  { title: "Human Perspective", span: 5, img: "/public/prj3.png", tag: "Photography" },
+  { title: "Brand Identity", span: 7, img: "/public/prj1.png", tag: "Branding" },
 ];
 
 function SectionHeader({ eyebrow, heading, italicWord, sub, showBtn }) {
@@ -527,9 +527,9 @@ function JournalSection() {
    STATS
 ───────────────────────────────────────── */
 const STATS = [
-  { value: "20+", label: "Years Experience" },
-  { value: "95+", label: "Projects Done" },
-  { value: "200%", label: "Satisfied Clients" },
+  { value: "6+", label: "Months Experience" },
+  { value: "4", label: "Projects Done" },
+  { value: "100%", label: "Interested" },
 ];
 
 function StatsSection() {
