@@ -109,7 +109,7 @@ export default function Footer() {
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: 8, fontSize: 13, color: "var(--muted)" }}>
             <div className="animate-pulse-green" style={{ width: 8, height: 8, borderRadius: "50%", background: "#4ade80" }} />
-            Available for projects
+            Open to Work
           </div>
         </div>
       </motion.div>
