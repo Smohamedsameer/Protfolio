@@ -562,64 +562,64 @@ function StatsSection() {
 /* ─────────────────────────────────────────
    EXPLORATIONS
 ───────────────────────────────────────── */
-const EXPLORE_IMGS = [
-  "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&q=80",
-  "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&q=80",
-  "https://images.unsplash.com/photo-1495726569656-8b8886143e6a?w=400&q=80",
-  "https://images.unsplash.com/photo-1605460375648-278bcbd579a6?w=400&q=80",
-  "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=400&q=80",
-  "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=400&q=80",
-];
+// const EXPLORE_IMGS = [
+//   "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=400&q=80",
+//   "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=400&q=80",
+//   "https://images.unsplash.com/photo-1495726569656-8b8886143e6a?w=400&q=80",
+//   "https://images.unsplash.com/photo-1605460375648-278bcbd579a6?w=400&q=80",
+//   "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=400&q=80",
+//   "https://images.unsplash.com/photo-1598550476439-6847785fcea6?w=400&q=80",
+// ];
 
-function ExplorationsSection() {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true, margin: "-100px" });
+// function ExplorationsSection() {
+//   const ref = useRef(null);
+//   const inView = useInView(ref, { once: true, margin: "-100px" });
 
-  return (
-    <section ref={ref} style={{ background: "var(--bg)", padding: "80px 0", overflow: "hidden" }}>
-      <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 24px" }}>
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.9 }}
-          style={{ textAlign: "center", marginBottom: 56 }}
-        >
-          <div style={{ fontSize: 11, color: "var(--muted)", letterSpacing: "0.3em", textTransform: "uppercase", marginBottom: 12 }}>Explorations</div>
-          <h2 style={{ fontSize: "clamp(32px,5vw,56px)", fontWeight: 600, color: "var(--text)" }}>
-            Visual <em className="font-display">playground</em>
-          </h2>
-          <p style={{ fontSize: 14, color: "var(--muted)", marginTop: 12, maxWidth: 400, margin: "12px auto 0" }}>
-            Experimental work, studies, and visual experiments.
-          </p>
-        </motion.div>
+//   return (
+//     <section ref={ref} style={{ background: "var(--bg)", padding: "80px 0", overflow: "hidden" }}>
+//       <div style={{ maxWidth: 1200, margin: "0 auto", padding: "0 24px" }}>
+//         <motion.div
+//           initial={{ opacity: 0, y: 30 }}
+//           animate={inView ? { opacity: 1, y: 0 } : {}}
+//           transition={{ duration: 0.9 }}
+//           style={{ textAlign: "center", marginBottom: 56 }}
+//         >
+//           <div style={{ fontSize: 11, color: "var(--muted)", letterSpacing: "0.3em", textTransform: "uppercase", marginBottom: 12 }}>Explorations</div>
+//           <h2 style={{ fontSize: "clamp(32px,5vw,56px)", fontWeight: 600, color: "var(--text)" }}>
+//             Visual <em className="font-display">playground</em>
+//           </h2>
+//           <p style={{ fontSize: 14, color: "var(--muted)", marginTop: 12, maxWidth: 400, margin: "12px auto 0" }}>
+//             Experimental work, studies, and visual experiments.
+//           </p>
+//         </motion.div>
 
-        <div style={{
-          display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
-          gap: 16,
-        }}>
-          {EXPLORE_IMGS.map((img, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 30 }}
-              animate={inView ? { opacity: 1, y: 0 } : {}}
-              transition={{ delay: i * 0.07, duration: 0.7 }}
-              style={{
-                aspectRatio: "1/1", borderRadius: 20, overflow: "hidden",
-                border: "1px solid var(--stroke)", cursor: "zoom-in",
-              }}
-            >
-              <img src={img} alt={`Exploration ${i + 1}`}
-                style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 0.4s" }}
-                onMouseEnter={e => e.target.style.transform = "scale(1.06)"}
-                onMouseLeave={e => e.target.style.transform = "scale(1)"}
-              />
-            </motion.div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
+//         <div style={{
+//           display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))",
+//           gap: 16,
+//         }}>
+//           {/* {EXPLORE_IMGS.map((img, i) => (
+//             <motion.div
+//               key={i}
+//               initial={{ opacity: 0, y: 30 }}
+//               animate={inView ? { opacity: 1, y: 0 } : {}}
+//               transition={{ delay: i * 0.07, duration: 0.7 }}
+//               style={{
+//                 aspectRatio: "1/1", borderRadius: 20, overflow: "hidden",
+//                 border: "1px solid var(--stroke)", cursor: "zoom-in",
+//               }}
+//             >
+//               <img src={img} alt={`Exploration ${i + 1}`}
+//                 style={{ width: "100%", height: "100%", objectFit: "cover", transition: "transform 0.4s" }}
+//                 onMouseEnter={e => e.target.style.transform = "scale(1.06)"}
+//                 onMouseLeave={e => e.target.style.transform = "scale(1)"}
+//               />
+//             </motion.div>
+//           ))} */}
+//         </div>
+//       </div>
+//     </section>
+//   );
+// }
 
 /* ─────────────────────────────────────────
    ROOT
@@ -657,7 +657,7 @@ export default function App() {
                   <HeroSection />
                   <WorksSection />
                   <JournalSection />
-                  <ExplorationsSection />
+                  {/* <ExplorationsSection /> */}
                   <StatsSection />
                   <Footer />
                 </>

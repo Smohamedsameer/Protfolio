@@ -56,6 +56,20 @@ const PROJECTS = [
      
     ],
   },
+   {
+    title: "Fund-Raiser",
+    img: "/proj.png",
+    github: "https://github.com/Smohamedsameer/K25-Funds.git",
+    lines: [
+       "Developed a secure full-stack fundraising management application with role-based authentication.",
+  "Implemented member registration, contribution tracking, payment verification, and expense management.",
+  "Built REST APIs with Spring Boot and integrated MySQL using Spring Data JPA.",
+  "Designed responsive dashboards for users and administrators with real-time financial summaries.",
+  "Implemented file upload functionality for payment proof and expense documentation.",
+  "Deployed the frontend on Vercel and backend on Railway.,"
+     
+    ],
+  },
 ];
 
 function ProjectCard({ project, idx }) {
