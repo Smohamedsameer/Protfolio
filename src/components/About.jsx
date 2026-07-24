@@ -8,7 +8,7 @@ const EDUCATION = [
   { school: "Greens Technologies", course: "Java Full Stack Development", period: "2025 – 2026" },
 ];
 
-const SKILLS = ["Java", "Full Stack Development", "HTML", "CSS", "JavaScript", "React", "SQL", "Git & GitHub"];
+const SKILLS = ["Java", "Full Stack Development", "HTML", "CSS", "JavaScript", "React", "SQL", "Git & GitHub","CI/CD Pipeline","Spring Boot","React","RestAPI","Microservice","Deployment"];
 const LANGUAGES = ["English", "Tamil", "Arabic", "Urdu"];
 const CERTIFICATES = ["Java Full Stack Completion Certificate", "Udemy — Java Programming Certificate"];
 
