@@ -60,7 +60,7 @@ export default function About() {
             padding: 4, background: "linear-gradient(90deg, #89AACC 0%, #4E85BF 100%)",
           }}>
             <img
-              src="/dp.jpg"
+              src="/profile.png"
               alt="Mohd Sameer"
               style={{ width: "100%", height: "100%", borderRadius: "50%", objectFit: "cover", border: "3px solid var(--bg)" }}
             />
