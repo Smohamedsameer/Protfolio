@@ -203,7 +203,7 @@ function LoadingScreen({ onComplete }) {
 /* ─────────────────────────────────────────
    HERO SECTION
 ───────────────────────────────────────── */
-const ROLES = ["Creative", "Fullstack", "Dveloper", "Scholar"];
+const ROLES = ["Creative", "Fullstack", "Developer", "Scholar"];
 
 function HeroSection() {
   const [roleIdx, setRoleIdx] = useState(0);
